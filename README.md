@@ -38,6 +38,7 @@ Claims Information: Claim frequency and average claim amount per policy.
 This structure allows for cross-comparisons across policy types, demographics, and vehicle-related factors to uncover deeper patterns in risk and performance.
 
 5. Features :
+
 • Business Problem
 
 Insurance providers often face difficulty analyzing large volumes of customer and claims data to determine which demographics or vehicle types pose higher risk. Traditional reporting lacks the visual clarity needed for strategic decision-making.
