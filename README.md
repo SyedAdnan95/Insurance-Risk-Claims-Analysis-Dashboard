@@ -1,57 +1,73 @@
 1. Project Title :
 
 Insurance Risk & Claims Analysis Dashboard
-A dynamic Power BI dashboard that delivers a comprehensive overview of insurance policies, claim distributions, and customer demographics—helping insurance analysts uncover trends in claim amounts, risk categories, and policyholder profiles.
+A comprehensive, data-driven Power BI dashboard designed to analyze and visualize insurance policy trends, claim behavior, and customer risk patterns across multiple dimensions — enabling insurers to make smarter, evidence-based business decisions.
 
 2. Purpose :
 
-The Insurance Risk & Claims Analysis Dashboard is an interactive and data-driven Power BI report designed to visualize and monitor insurance portfolio performance. It enables insurance companies to analyze policy distribution, claim frequency, and customer risk profiles across demographics, vehicle attributes, and coverage zones.
-The purpose of this dashboard is to empower stakeholders to make informed decisions on risk management, customer segmentation, and premium strategy optimization.
+The Insurance Risk & Claims Analysis Dashboard provides an interactive overview of how different customer and vehicle attributes influence policy distribution and claim patterns. It helps insurance professionals quickly identify trends, measure claim frequency, and evaluate financial exposure across demographics, coverage zones, and education levels.
+The purpose of this dashboard is to simplify complex insurance data and present actionable insights that enhance risk assessment, pricing, and customer segmentation.
 
 3. Tech Stack :
 
-The dashboard was built using the following tools and technologies:
-• 📊 Power BI Desktop – Core platform for designing and visualizing the dashboard.
-• ⚙️ Power Query – Used for data cleaning, transformation, and preparation.
-• 🧮 DAX (Data Analysis Expressions) – Created calculated measures for KPIs such as Average Claim Frequency and Average Claim Amount.
-• 🧩 Data Modeling – Established relationships among policy, claims, and demographic data tables for accurate cross-filtering.
-• 📁 File Format – Developed in .pbix, exported as .png for presentation.
+This dashboard was built using the following tools and technologies:
+
+📊 Power BI Desktop – Core platform for dashboard creation, visualization, and interactivity.
+
+⚙️ Power Query Editor – Used for data cleaning, shaping, and preparing datasets for modeling.
+
+🧮 DAX (Data Analysis Expressions) – Created custom calculations for KPIs like claim frequency, average claim amount, and gender-based policy counts.
+
+🧠 Data Modeling – Established relationships among data tables (policies, claims, demographics, and car details) for accurate cross-analysis.
+
+📁 File Format – Developed in .pbix format and exported as .png for presentation or GitHub preview.
 
 4. Data Source :
 
-Source: Internal Insurance Policy & Claim Database
-The dataset includes information on:
+Source: Simulated dataset of insurance policy and claim information.
+The dataset includes fields covering:
 
-Policyholder demographics (age group, gender, education, marital status)
+Policy Details: Policy number, policy type, total claim amount, and coverage zone.
 
-Vehicle information (car make, year, and usage type)
+Customer Demographics: Age group, gender, marital status, and education level.
 
-Claim statistics (claim frequency, claim amount, and total policies)
+Vehicle Data: Car make, model year, and usage type (private/commercial).
 
-Coverage details (zones, risk levels, and customer categories)
+Claims Information: Claim frequency and average claim amount per policy.
 
-The structured dataset allows for trend and correlation analysis across multiple customer and vehicle dimensions.
+This structure allows for cross-comparisons across policy types, demographics, and vehicle-related factors to uncover deeper patterns in risk and performance.
 
 5. Features :
-   
 • Business Problem
 
-Insurance companies often struggle to quickly identify high-risk customer groups, claim trends by region, and the distribution of policies by demographic factors. Traditional tabular reports fail to present the holistic view required for strategic decision-making.
+Insurance providers often face difficulty analyzing large volumes of customer and claims data to determine which demographics or vehicle types pose higher risk. Traditional reporting lacks the visual clarity needed for strategic decision-making.
+
+Key questions include:
+
+Which age groups and car types generate the most policies?
+
+What customer segments have the highest average claim amount?
+
+How do coverage zones or education levels influence claim frequency?
+
+Are there patterns in claim behavior that can improve underwriting or pricing strategies?
 
 • Goal of the Dashboard
 
-To build an interactive analytical tool that helps:
+To deliver an intuitive and interactive visual solution that enables:
 
-Visualize insurance claim and policy trends.
+Quick assessment of policy and claim trends across demographics.
 
-Compare claim frequencies and amounts across demographics and car types.
+Identification of high-claim risk groups for targeted policy management.
 
-Understand risk distribution by geography and education level.
+Evaluation of total claim distribution by education, marital status, and car characteristics.
 
-Support data-driven strategies for pricing, marketing, and fraud prevention.
+Enhanced understanding of the insurer’s customer base for better forecasting and business planning.
 
 • Walkthrough of Key Visuals
-🔹 KPI Overview (Top Left)
+🔹 KPI Cards (Top Left)
+
+Show overall insurance metrics:
 
 Total Policies: 37,542
 
@@ -61,61 +77,72 @@ Average Claim Frequency: 0.5
 
 Average Claim Amount: $5K
 
-Gender Split: Male 18.7K | Female 18.8K
-These top-level KPIs summarize the entire insurance portfolio at a glance.
+Gender distribution: Male (18.7K) | Female (18.8K)
+
+These cards summarize the company’s insurance portfolio performance at a glance.
 
 🔹 Policies by Car Use (Donut Chart)
 
-Displays the distribution between Commercial (7K) and Private (30K) vehicle policies—indicating a higher concentration in private use.
+Displays the split between Private (30K) and Commercial (7K) policies, highlighting the company’s dominant focus on personal vehicle insurance.
 
 🔹 Policies by Car Make (Bar Chart)
 
-Highlights the top car brands insured, with Ford (3.3K) and Chevrolet (3.0K) leading, providing insights for brand-based risk assessment.
+Ranks the top insured car brands — with Ford (3.3K) and Chevrolet (3.0K) leading — allowing identification of popular manufacturers among customers.
 
 🔹 Policies by Coverage Zone (Donut Chart)
 
-Breakdown by region type—Urban, Rural, Suburban, Highly Urban, Highly Rural—each holding around 7K–8K policies, indicating well-distributed customer coverage.
+Breaks down policy distribution across Urban, Rural, Suburban, Highly Urban, and Highly Rural areas — each comprising roughly 19–20% of total policies, reflecting balanced market coverage.
 
 🔹 Policies by Age Group (Bar Chart)
 
-Reveals that most policyholders fall within 26–55 years, with ~7.1K policies in each group, useful for targeting age-based marketing.
+Visualizes customer segmentation by age — most policyholders fall in the 26–55 age range (7.1K each), with fewer in the youngest and oldest brackets.
 
 🔹 Policies by Car Year (Line Chart)
 
-Tracks the trend of insured vehicles by manufacturing year from 1990–2020, showing a peak around the early 2010s.
+Tracks the count of policies by car manufacturing year (1990–2020), revealing steady growth until a small decline post-2018 — useful for identifying preferred vehicle age segments.
 
-🔹 Policies by Kids Driving (Column Chart)
+🔹 Policies by Kids Driving (Bar Chart)
 
-Analyzes policies based on the number of children driving, identifying negligible data beyond one child driver.
+Shows how many children are included as drivers on policies — most customers report no kids driving, indicating primarily individual or couple-based insurance coverage.
 
 🔹 Policies by Education (Pie Chart)
 
-Displays education distribution—Bachelors (49.81%) being the largest, followed by Masters (27.81%) and High School (15.02%).
+Displays educational background of policyholders:
+
+Bachelors: 49.8%
+
+Masters: 27.8%
+
+High School: 15%
+
+PhD: 7.3%
+
+Useful for understanding how education correlates with claim frequency and amount.
 
 🔹 Claim Amount by Education & Marital Status (Matrix Table)
 
-Provides a cross-sectional view of claim amount distribution.
-Key Insights:
+Compares total claim amounts across education levels and marital statuses.
 
-Singles have the highest total claim amount ($96.3M).
+Singles: $96.3M (highest)
 
-Married individuals claim around $50.6M, suggesting stability in claims.
+Married: $50.6M
 
-Bachelor’s degree holders represent the largest contributor ($31.1M married, $38.7M single).
+Bachelors: Most claims overall ($38.7M single, $31.1M married)
+
+This view identifies which demographic combinations contribute the most to claims.
 
 • Business Impact & Insights
 
-📈 Customer Insights: Identifies high-claim demographics and car brands for better underwriting strategies.
+📊 Data Transparency: Converts complex claim and policy data into accessible, interactive visuals.
 
-🧠 Risk Management: Helps assess which zones and age groups pose higher claim risks.
+💰 Profitability Insights: Identifies high-claim groups, helping insurers refine pricing strategies.
 
-💡 Marketing Optimization: Enables personalized insurance offerings based on education, age, and marital status.
+👥 Customer Segmentation: Enables marketing teams to target age, education, or region-specific customers more effectively.
 
-💰 Financial Planning: Visualizes average claim amounts to predict future liabilities and optimize pricing models.
+⚙️ Operational Efficiency: Reduces manual reporting time by centralizing key KPIs into a single dashboard.
 
-🌍 Strategic Decision-Making: Provides a consolidated view of the insurance ecosystem, driving data-backed decisions for growth and risk reduction.
+🔍 Risk Optimization: Supports actuaries and analysts in spotting potential high-risk segments to reduce losses and enhance policy performance.
 
-6. Screenshot :
-
-Dashboard Preview:
+6. Screenshots :
+Dashboard Preview
 ![Insurance Risk & Claims Analysis Dashboard](https://raw.githubusercontent.com/adnanspartan/insurance-risk-analysis/main/assets/Snapshot%20of%20the%20Dashboard.png)
