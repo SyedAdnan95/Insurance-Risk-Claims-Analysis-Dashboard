@@ -1,6 +1,6 @@
 1. Project Title :
 
-🚗 Insurance Risk & Claims Analysis Dashboard
+Insurance Risk & Claims Analysis Dashboard
 A dynamic Power BI dashboard that delivers a comprehensive overview of insurance policies, claim distributions, and customer demographics—helping insurance analysts uncover trends in claim amounts, risk categories, and policyholder profiles.
 
 2. Purpose :
