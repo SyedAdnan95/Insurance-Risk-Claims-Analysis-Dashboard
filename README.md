@@ -146,4 +146,4 @@ This view identifies which demographic combinations contribute the most to claim
 
 6. Screenshots :
 Dashboard Preview
-![Insurance Risk & Claims Analysis Dashboard](https://raw.githubusercontent.com/adnanspartan/insurance-risk-analysis/main/assets/Snapshot%20of%20the%20Dashboard.png)
+![Insurance Risk & Claims Analysis Dashboard](https://github.com/SyedAdnan95/Insurance-Risk-Claims-Analysis-Dashboard/blob/main/Snapshot%20of%20the%20Dashboard.png)
